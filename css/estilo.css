@@ -1,0 +1,47 @@
+header {
+  width: 80%;
+  height: 100px;
+  border: 1px dashed black;
+  border-radius: 25px;
+  margin: auto; }
+
+nav {
+  display: inline;
+  float: right;
+  margin: 20px; }
+  nav ul {
+    font-size: 12px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: grey;
+    color: white;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline; }
+    nav ul li {
+      display: inline;
+      text-align: center; }
+      nav ul li a {
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        text-decoration: none;
+        float: right;
+        border: 1px solid white;
+        border-radius: 0px 10px 0px 10px;
+        box-shadow: 0px 0px 5px white;
+        width: 80px;
+        transition: -webkit-box-shadow 1s background 1s; }
+
+#contenedor {
+  width: 80%;
+  height: 550px;
+  border: 1px solid blue;
+  border-radius: 25px;
+  background: rgba(100, 20, 30, 0.2);
+  margin: auto; }
+
+body {
+  background: #977c7c; }
+
+/*# sourceMappingURL=estilo.css.map */

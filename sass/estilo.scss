@@ -1,0 +1,9 @@
+@import "header";
+@import "colores";
+@import "contenedor";
+@import "section";
+@import "footer";
+
+body{
+    background:$colorFondo;
+}
